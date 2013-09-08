@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<requisicao-consulta versao="1.2.0" id="6560a94c-663b-4aec-9a45-e45f278e00b4" xmlns="http://ecommerce.cbmp.com.br">
+	<tid>%(transaction_id)s</tid>
+	<dados-ec>
+		<numero>%(affiliation_id)s</numero>
+		<chave>%(api_key)s</chave>
+	</dados-ec>
+</requisicao-consulta>

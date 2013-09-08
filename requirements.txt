@@ -1,0 +1,10 @@
+django==1.4.6
+South
+django-cart
+requests
+easy_thumbnails
+django-taggit
+django-grappelli
+djangorestframework
+pillow
+cep
