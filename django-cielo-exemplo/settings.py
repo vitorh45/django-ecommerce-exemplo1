@@ -168,7 +168,7 @@ AUTHENTICATION_BACKENDS = (
     ('django.contrib.auth.backends.ModelBackend'),
 )
 
-GRAPPELLI_ADMIN_TITLE = u"Miniature administração"
+GRAPPELLI_ADMIN_TITLE = u"Exemplo administração"
 
 USE_THOUSAND_SEPARATOR = True
 
@@ -177,17 +177,11 @@ LOGOUT_URL = '/'
 
 THUMBNAIL_DEBUG = True
 
-CIELO_NUMERO = '1042510560'
-CIELO_TOKEN = '1dc4694183eb2cecd2840e70c2d91222a948783cfbe8a0ec1164cc518d2e3db1'
-#CIELO_NUMERO = '1001734898'
+CIELO_NUMERO = ''
+CIELO_TOKEN = ''
 CIELO_URL = 'https://ecommerce.cielo.com.br/servicos/ecommwsec.do'
 CIELO_URL_TESTE = "https://qasecommerce.cielo.com.br/servicos/ecommwsec.do"
-#CIELO_TOKEN = "e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832"
 CIELO_SANDBOX = False
 
-DJBOLETO_MEDIA_URL = "/static/site/imagens/boletoimg/"
-
-from decimal import Decimal
-VALOR_FRETE_GRATIS = Decimal(120.00)
 
 INTERNAL_IPS = ('127.0.0.1')

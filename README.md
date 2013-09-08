@@ -1,4 +1,4 @@
-django-cielo-exemplo
+django-ecommerce-exemplo1
 ====================
 
-Como ter a opção de pagar com a Cielo no seu ecommerce
+Um exemplo de um pequeno ecommerce com opçao de pagamento com a Cielo
